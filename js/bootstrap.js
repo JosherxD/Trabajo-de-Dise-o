@@ -5046,16 +5046,3 @@
 //# sourceMappingURL=bootstrap.js.map
 
 
-<script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-YTzfTMdr25xrJ67w/NQDItSb8jcJQqjvDolGhefA1+XIOYgyYfMjKabwGUmCI+I0" crossorigin="anonymous"></script>
-<script>
-  var cartCount = 0;
-  
-  // Add event listener to "Add to cart" buttons
-  var addToCartButtons = document.querySelectorAll(".btn-outline-secondary");
-  addToCartButtons.forEach(function(button) {
-    button.addEventListener("click", function() {
-      cartCount++;
-      document.querySelector("#cart-count").innerHTML = cartCount;
-    });
-  });
-</script>
